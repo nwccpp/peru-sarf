@@ -207,7 +207,7 @@ save(result, file="FindK_Result.Rda")
 FindTopicsNumber_plot(result) 
 ggsave("~/AMISS Data/PeruTweets/PeruProject/Visuals/FigureS1_1_FindK_061722.tiff", width=8.5, height=5, dpi=300)
 ```
-![Ldatuning Plot](https://github.com/nwccpp/peru_sarf/blob/main/images/Supplement_findk.png?raw=true)
+![Ldatuning Plot](https://github.com/nwccpp/peru_sarf/blob/main/images/Supplement_findk.png?raw=true](https://github.com/nwccpp/peru-sarf/blob/main/images/Supplement_findk.png?raw=true)
 - Both models for k=45 and k=65 were analyzed. The researched agreed that k=65 was the better model
 ```{r}
 Sys.time()
