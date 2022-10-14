@@ -15,7 +15,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ### Authors: 
 #### Ayse D. Lokmanoglu, Erik C. Nisbet, Matthew T. Osborne, Joseph Tien, Sam Malloy, Lourdes Cueva Chacón, Esteban Villa Turek, and Rod Abhari            
 
-The code includes all the steps of the text, and regression analysis, and the visualizations. 
+The code includes all the steps of the regression analysis. 
 
 The data set accompanying the code: <>
 

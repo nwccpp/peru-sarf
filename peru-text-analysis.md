@@ -23,7 +23,7 @@ knitr::opts_chunk$set(eval = FALSE)
 #### Esteban Villa Turek,         
 #### Rod Abhari            
 
-The code includes all the steps of the text, and regression analysis, and the visualizations. 
+The code includes all the steps of the text analysis, and daily variables. 
 
 The data set accompanying the code: <>
 
