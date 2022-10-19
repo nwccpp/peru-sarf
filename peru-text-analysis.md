@@ -14,14 +14,7 @@ knitr::opts_chunk$set(eval = FALSE)
 ```
 ## Supplemental Code for: Social Media Amplification of Risk about COVID-19 Vaccination and Vaccine Acceptance Among Peruvian Social Media Users: A Longitudinal Time Series Analysis                             
 ### Authors: 
-#### Ayse D. Lokmanoglu*, 
-#### Erik C. Nisbet,      
-#### Matthew T. Osborne, 
-#### Joseph Tien, 
-#### Sam Malloy,       
-#### Lourdes Cueva Chacón, 
-#### Esteban Villa Turek,         
-#### Rod Abhari            
+#### Ayse D. Lokmanoglu*, Erik C. Nisbet, Matthew T. Osborne, Joseph Tien, Sam Malloy, Lourdes Cueva Chacón, Esteban Villa Turek, & Rod Abhari            
 
 The code includes all the steps of the text analysis, and daily variables. 
 
