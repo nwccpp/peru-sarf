@@ -384,11 +384,21 @@ Peru_UMD_v15a <- UMDIndicatorsPeru_v15a_101422 %>%
          'sample_size_v15a' = 'sample_size') %>%
   mutate(date = ymd(date))
 
+UMDIndicatorsPeru_v1_101422 <- read_csv("PerUMDIndicatorsPeru_v1_101422uTweets/PeruProject/CSV/UMDIndicatorsPeru_v1_101422.csv")
+Peru_UMD_v1 <- UMDIndicatorsPeru_v1_101422 %>%
+  select(date, pct_covid_vaccine, sample_size) %>%
+  rename('v1' = 'pct_covid_vaccine',
+         'sample_size_v1' = 'sample_size') %>%
+  mutate(date = ymd(date))
+
 temp_robust <- full_join(Peru_UMD_v3a, Peru_UMD_v15a, by="date")
+temp_robust <- right_join(temp_robust, Peru_UMD_v1, by="date")
 rm(UMDIndicatorsPeru_v15a_101422)
 rm(UMDIndicatorsPeru_v3a_101422)
+rm(UMDIndicatorsPeru_v1_101422)
 rm(Peru_UMD_v15a)
 rm(Peru_UMD_v3a)
+rm(Peru_UMD_v1)
 ```
 Combine IV and DVs daily
 ```{r}
