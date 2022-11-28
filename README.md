@@ -6,7 +6,7 @@
 
 Following files are in the repository:
 - [Text analysis Code](https://github.com/nwccpp/peru-sarf/blob/main/peru-text-analysis.md) R Studio
-- [Time Series Code](https://github.com/nwccpp/peru-sarf/blob/main/peru-sarf-timeseries.md) R Studio
+- [Time Series Code](https://github.com/nwccpp/peru-sarf/blob/main/peru-sarf-timeseries-v2.md) R Studio
 
 For questions, or more information on the code please contact: 
 Ayse D. Lokmanoglu\
